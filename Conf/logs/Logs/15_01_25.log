@@ -1,0 +1,324 @@
+[ 2015-01-25T09:57:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.047002s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.077061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\Home\a423fc1ab037bbf3980b6781df39cf92.php 第 31 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\Home\a423fc1ab037bbf3980b6781df39cf92.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.080062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.106063s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.107063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.108063s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.109063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.111063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T09:57:25+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.030002s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_users` SET `lasttime`='1422151045',`lastloginmonth`='1',`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.088062s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.090062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.105063s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.106063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.107063s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.107063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.109063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-25T09:57:27+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.041002s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.017001s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: width D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 0,100   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: apiinfo D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\IndexAction.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `tp_diymen_set` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'xlrvqn1417349582' ) LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'opmpqh1418554516' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'qvmvju1418554443' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'rvbdce1418553517' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'pxazql1418553737' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'ywbugv1418553981' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'mzoeut1418554096' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: apiinfo D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\IndexAction.class.php 第 33 行.
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'cfabet1418556896' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: apiinfo D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\IndexAction.class.php 第 33 行.
+SQL: SELECT * FROM `tp_diymen_set` WHERE ( `token` = 'bhpcnu1419857488' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.150065s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 51 行.
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 113 行.
+NOTIC: [8] Undefined variable: alert D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\56f7804e54d354c9c14b7fc522e75478.php 第 210 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.152066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.173067s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.174067s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.175067s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.176067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.176067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T09:57:30+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=index&
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: width D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.020001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `token` = null ) ORDER BY usort DESC LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.073062s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 201 行.
+NOTIC: [8] Undefined index: exceptCondition D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 201 行.
+NOTIC: [8] Undefined index: test D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 201 行.
+NOTIC: [8] Undefined index: search D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 234 行.
+NOTIC: [8] Undefined index: token D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 276 行.
+NOTIC: [8] Undefined variable: alert D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 390 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.074062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.092063s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.093063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.094063s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.094063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.095063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T09:57:32+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: width D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.006001s ]
+SQL: SELECT `fid`,`id`,`name`,concat(path,'-',id) as bpath FROM `tp_classify` WHERE ( `token` = null ) ORDER BY bpath ASC  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\ImgAction.class.php 第 28 行.
+NOTIC: [8] Undefined variable: fid D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\ImgAction.class.php 第 45 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.051060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\521fcb79a648356e459947f305dfeb37.php 第 51 行.
+NOTIC: [8] Undefined index: test D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\521fcb79a648356e459947f305dfeb37.php 第 201 行.
+NOTIC: [8] Undefined variable: alert D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\521fcb79a648356e459947f305dfeb37.php 第 352 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.052060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.070061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.071061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.071061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.072061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.073061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T09:57:37+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=insert
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.004001s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: width D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004000s ]
+SQL: SELECT `id` FROM `tp_img` WHERE ( `token` = null ) ORDER BY id DESC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tp_users` SET `diynum`=diynum+1 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined offset: 1 D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Model\ImgModel.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 3 D:\Software\xampp\htdocs\fivezhi_public\Lib\Core\Model.class.php 第 866 行.
+SQL: INSERT INTO `tp_img` (`keyword`,`type`,`title`,`text`,`classid`,`pic`,`showpic`,`info`,`url`,`usort`,`uid`,`uname`,`createtime`,`uptatetime`,`classname`,`token`,`click`) VALUES ('','2','地对地导弹','','0','','1','','','1','1','admin','1422151057','1422151057','','','0') [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_keyword` [ RunTime:0.005001s ]
+SQL: INSERT INTO `tp_keyword` (`pid`,`module`,`token`,`keyword`) VALUES ('18','Img','','') [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.088063s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.089063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.099063s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.100063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.101063s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.101063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.102064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T09:57:39+08:00 ] 127.0.0.1 /index.php?g=User&m=Img&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of ImgAction::insert() should be compatible with BaseAction::insert($name = '', $back = '/index') D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\User\ImgAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: width D:\Software\xampp\htdocs\fivezhi_public\PigCms\Lib\Action\UserAction.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_img` WHERE ( `token` = null ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_img` WHERE ( `token` = null ) ORDER BY usort DESC LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.068061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 51 行.
+NOTIC: [8] Undefined index: exceptCondition D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 201 行.
+NOTIC: [8] Undefined index: test D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 201 行.
+NOTIC: [8] Undefined index: search D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 234 行.
+NOTIC: [8] Undefined index: token D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 276 行.
+NOTIC: [8] Undefined variable: alert D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\User\8292f8fa266e5edbb92e36ac74e30aa6.php 第 390 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.069061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.086062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.086062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.087062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.088062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.088062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T10:46:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.036059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\Home\a423fc1ab037bbf3980b6781df39cf92.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.039060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.057061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.058061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.059061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.060061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.061061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T11:02:42+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.021059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\Home\a423fc1ab037bbf3980b6781df39cf92.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.022059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.040060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.041060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.042060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.043060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.044060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-25T16:35:42+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.073004s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.275073s ]
+INFO: [ view_template ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\Home\a423fc1ab037bbf3980b6781df39cf92.php 第 31 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\fivezhi_public\Conf\logs\Cache\Home\a423fc1ab037bbf3980b6781df39cf92.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.295074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.367078s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.368078s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.369078s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.370078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.371078s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

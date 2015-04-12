@@ -1,0 +1,398 @@
+[ 2014-10-06T20:16:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.023001s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.110063s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.111063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.173067s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.173067s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.174067s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.175067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.176067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:16:26+08:00 ] 127.0.0.1 /index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\902274c55f5e8e1e2d85c75b81cd6bb0.php 第 123 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\902274c55f5e8e1e2d85c75b81cd6bb0.php 第 123 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015000s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.016000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.016000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.017000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.017000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-10-06T20:30:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.020058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.021058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.042060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.042060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.043060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.044060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.044060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:31:01+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.035059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.037059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.058060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.058060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.059060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.060060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.060060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:31:57+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.026059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.028059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.057060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.058060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.059060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.060060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.061061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:35:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.026058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.028058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.056060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.057060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.058060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.058060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.059060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:35:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.018058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.020058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.046060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.047060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.048060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.048060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.049060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-06T20:36:00+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.026059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.028059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.057061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.058061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.059061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.060061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.061061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:36:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: args D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [4096] Argument 2 passed to ReflectionMethod::invokeArgs() must be of the type array, null given, called in D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php on line 210 and defined D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [2] ReflectionMethod::invokeArgs() expects parameter 2 to be array, null given D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+
+[ 2014-10-06T20:42:09+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: args D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [4096] Argument 2 passed to ReflectionMethod::invokeArgs() must be of the type array, null given, called in D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php on line 210 and defined D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [2] ReflectionMethod::invokeArgs() expects parameter 2 to be array, null given D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+
+[ 2014-10-06T20:42:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: args D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [4096] Argument 2 passed to ReflectionMethod::invokeArgs() must be of the type array, null given, called in D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php on line 210 and defined D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [2] ReflectionMethod::invokeArgs() expects parameter 2 to be array, null given D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+
+[ 2014-10-06T20:42:11+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: args D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [4096] Argument 2 passed to ReflectionMethod::invokeArgs() must be of the type array, null given, called in D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php on line 210 and defined D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [2] ReflectionMethod::invokeArgs() expects parameter 2 to be array, null given D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+
+[ 2014-10-06T20:42:12+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: args D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [4096] Argument 2 passed to ReflectionMethod::invokeArgs() must be of the type array, null given, called in D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php on line 210 and defined D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+NOTIC: [2] ReflectionMethod::invokeArgs() expects parameter 2 to be array, null given D:\Software\xampp\htdocs\pigcms\Lib\Core\App.class.php 第 172 行.
+
+[ 2014-10-06T20:42:28+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.018058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.020059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.049060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.051060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.052060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.053060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.054060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-10-06T20:43:32+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.016058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.018058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.032059s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.033059s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.034059s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.034059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.035059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-06T20:43:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.019058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.021058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.050060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.052060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.053060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.053060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.055060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:43:36+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.016058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.017059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.045060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.046060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.047060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.047060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.049060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-10-06T20:44:02+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.018059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.020059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.041060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.042060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.042060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.043060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.044060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-10-06T20:52:27+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.052060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.054060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.074061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.075061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.076061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.076061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.077062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-10-06T20:52:30+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.016058s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\Software\xampp\htdocs\pigcms\Conf\logs\Cache\Home\b78a1135f13398b2e347da80ef28ba18.php 第 96 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.017058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.032059s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.033059s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.034059s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.034059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.035059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
